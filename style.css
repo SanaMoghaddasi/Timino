@@ -1,0 +1,59 @@
+body {
+    background-color: #222423;
+    background-image: url(./public/images/MapChart.png) , url(./public/images/grain.png);
+    background-size:cover, cover;
+    background-repeat: repeat, repeat;
+}
+.sidebar {
+    background-image: linear-gradient(100deg, #242726 6.67%, rgba(167, 177, 174, 0.023) 74.33%);
+    border-width: 2.51px;
+    border-style: solid;
+    border-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 70.19%, rgba(255, 255, 255, 0.11) 90%) 1;
+
+
+}
+
+.sidebar a {
+    color: #798894;
+    ;
+}
+/* @media (max-width: 500px) {
+    .sidebar {
+        display: none;
+    }
+  } */
+
+.hour , .minute , .second {
+    display: inline-block;
+    width: 3.5rem;
+    aspect-ratio: 1;
+    background-image: linear-gradient(137.79deg, #242726 6.83%, rgba(36, 39, 38, 0) 99.67%);
+}
+
+.timing , .solar, .christian, .last-day {
+    background-image: linear-gradient(to left, #313131a9 20.67%, rgba(36, 39, 38, 0) 74.33%);
+    border-width: 1.83px;
+    border-style: solid;
+    border-image: linear-gradient(30deg, rgba(255, 255, 255, 0) 50.19%, rgba(255, 255, 255, 0.11) 77%) 1;
+}
+
+.next-day , .lunar {
+    background-image: linear-gradient(to right, #313131a9 20.67%, rgba(36, 39, 38, 0) 74.33%);
+    border-width: 1.83px;
+    border-style: solid;
+    border-image: linear-gradient(89.43deg, rgba(255, 255, 255, 0.11) 1.19%, rgba(255, 255, 255, 0) 36.37%) 1;
+}
+
+.calenders {
+    color: white;
+}
+.numbers, .title {
+   color: #00A693;
+}
+
+li:hover, .nav-link:hover , li:hover svg path{
+    fill: white;
+    color: white;
+    background-color:#00A693 ;
+    border-radius: 5px;
+}
